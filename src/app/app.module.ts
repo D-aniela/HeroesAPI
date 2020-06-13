@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CardComponent } from './components/card/card.component';
 import { GridCardsComponent } from './components/grid-cards/grid-cards.component';
 import { DescripcionComponent } from './components/descripcion/descripcion.component';
+import { NavbarComponent } from './components/shared/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { DescripcionComponent } from './components/descripcion/descripcion.compo
     CardComponent,
     GridCardsComponent,
     DescripcionComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,

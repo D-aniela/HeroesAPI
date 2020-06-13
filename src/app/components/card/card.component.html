@@ -3,11 +3,14 @@
     <div class="col-auto mb-3">
       <div class="card" style="width: 18rem;">
         <div class="card-body">
-          <h5 class="card-title">{{HeroesInput.name}}</h5>
+          <h5 class="card-title">{{ HeroesInput.name }}</h5>
           <img [src]="HeroesInput.image" alt="" />
           <p class="card-text">
-            ID:
-            {{HeroesInput.id}}
+            <strong>
+              Full Name:
+            </strong>
+            <br />
+            {{ HeroesInput.fullName }}
           </p>
           <a href="#" class="card-link">Card link</a>
           <a href="#" class="card-link">Another link</a>

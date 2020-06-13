@@ -32,6 +32,7 @@ export class GridCardsComponent implements OnInit {
                 image: superheroe.image.url,
                 name: superheroe.name,
                 id: superheroe.id,
+                fullName: superheroe.biography['full-name'],
               };
               return heroeFiltrado;
             })
