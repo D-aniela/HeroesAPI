@@ -1,0 +1,16 @@
+.contenedor{
+    background: black;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    color: rgba(184, 166, 166, 0.726);
+}
+
+.imagen{
+    background: #000;
+    height: 80vh;
+}
+
+img{
+    width: 1000px;
+}

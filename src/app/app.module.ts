@@ -7,6 +7,8 @@ import { CardComponent } from './components/card/card.component';
 import { GridCardsComponent } from './components/grid-cards/grid-cards.component';
 import { DescripcionComponent } from './components/descripcion/descripcion.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
+import { APP_ROUTES } from './app.routes';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -15,10 +17,12 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
     GridCardsComponent,
     DescripcionComponent,
     NavbarComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    APP_ROUTES
   ],
   providers: [],
   bootstrap: [AppComponent]
