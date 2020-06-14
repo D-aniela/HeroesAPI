@@ -1,0 +1,15 @@
+<div class="container text-center">
+  <div class="search">
+    <label for="">Search Hero</label>
+    <br />
+    <input #inputHero type="text" />
+  </div>
+
+  <div class="getHeroe" *ngIf="!loading">
+    <div class="row">
+      <div class="col-4" *ngFor="let heroeRecibido of ArraysHeroes">
+        <app-card [HeroesInput]="heroeRecibido"></app-card>
+      </div>
+    </div>
+  </div>
+</div>

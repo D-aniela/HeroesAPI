@@ -9,6 +9,7 @@ import { DescripcionComponent } from './components/descripcion/descripcion.compo
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { APP_ROUTES } from './app.routes';
 import { AboutComponent } from './components/about/about.component';
+import { SearchHeroComponent } from './components/search-hero/search-hero.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { AboutComponent } from './components/about/about.component';
     DescripcionComponent,
     NavbarComponent,
     AboutComponent,
+    SearchHeroComponent,
   ],
   imports: [
     BrowserModule,
