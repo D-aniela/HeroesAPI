@@ -11,7 +11,7 @@ export class ApiHeroesService {
   constructor(private http: HttpClient) {}
 
   public getHeroe(id: any) {
-    console.log(`${this.urlApiHeroes}${this.idApiHeores}${id}`);
+    // console.log(`${this.urlApiHeroes}${this.idApiHeores}${id}`);
 
     return this.http.get(`${this.urlApiHeroes}${this.idApiHeores}${id}`);
   }

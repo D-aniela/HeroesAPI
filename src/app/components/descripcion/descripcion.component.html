@@ -1,27 +1,56 @@
 <div class="container mt-5">
   <div class="Descripcion text-center">
-    <h1>Descripción</h1>
+    <h1>Description</h1>
   </div>
 
-  <div class="Datos">
-    <div class="nombre">
-      <h2>Nombre:</h2>
-      <p>Warren Kenneth Worthington III"</p>
+  <div class="Informacion">
+    <div class="imagen">
+      <img [src]="DetailHero.image" alt="" />
     </div>
-    <div class="Aparicion">
-      <h2>Primera aparición:</h2>
-      <p>X-Men #1 (September, 1963)</p>
-    </div>
-    <div class="Alias">
-      <h2>Alias:</h2>
-      <p>War", "Dark Angel", "Death", "Avenging Angel"</p>
-    </div>
-    <div class="Estadisticas">
-      <h2>Estadísticas:</h2>
-      <p>
-        "intelligence": "63", "strength": "13", "speed": "58", "durability":
-        "64", "power": "35", "combat": "42"
-      </p>
+
+    <div class="Datos">
+      <div class="nombre">
+        <h2>Name:</h2>
+        <p>{{ DetailHero.name }}</p>
+      </div>
+      <div class="Aparicion">
+        <h2>First Appearance:</h2>
+        <p>{{ DetailHero.FirstAppear }}</p>
+      </div>
+      <div class="Alias">
+        <h2>Aliases:</h2>
+        <p>{{ DetailHero.Alias }}</p>
+      </div>
+      <div class="Estadisticas">
+        <h2>Powerstats:</h2>
+
+        <ul>
+          <li>
+            Intelligence:
+            {{ DetailHero.StatsI }}
+          </li>
+          <li>
+            Strength:
+            {{ DetailHero.StatsS }}
+          </li>
+          <li>
+            Speed:
+            {{ DetailHero.StatsSpeed }}
+          </li>
+          <li>
+            Durability:
+            {{ DetailHero.StatsD }}
+          </li>
+          <li>
+            Power:
+            {{ DetailHero.StatsPower }}
+          </li>
+          <li>
+            Combat:
+            {{ DetailHero.StatsCombat }}
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>

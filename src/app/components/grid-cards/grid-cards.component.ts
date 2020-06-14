@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { pluck, switchMap, concatMap, map, mergeMap } from 'rxjs/operators';
+import { map, mergeMap } from 'rxjs/operators';
 import { from } from 'rxjs';
 import { ApiHeroesService } from '../../services/api-heroes.service';
 import { Heroe } from 'src/app/interfaces/heroes.interface';
